@@ -1,5 +1,4 @@
 # HTTPehaviour [![Build Status](https://travis-ci.org/edgurgel/httpehaviour.svg?branch=master)](https://travis-ci.org/edgurgel/httpehaviour)
-============
 
 HTTP client for Elixir, based on [HTTPoison](https://github.com/edgurgel/httpoison).
 
@@ -65,7 +64,7 @@ The request will follow like this:
 * Then finally terminate_request/1 is called to do any cleanup and change the state;
 * Response will have the state that got passed through the previous functions.
 
-If any callback is called and returns `{ :halt, state }`, it will finish it and
+If any callback is called and returns `{ :halt, state }`, it will finish it and return `HTTPehaviour.Error`
 
 You can define a module that implement the following callbacks
 
