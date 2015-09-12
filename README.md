@@ -5,7 +5,7 @@ HTTP client for Elixir, based on [HTTPoison](https://github.com/edgurgel/httpois
 
 ## But why not HTTPoison?
 
-HTTPehaviour does not provide a clean way of overriding steps of the HTTP request. This project is an attempt to fix this.
+HTTPoison does not provide a clean way of overriding steps of the HTTP request. This project is an attempt to fix this.
 
 ## Installation
 
