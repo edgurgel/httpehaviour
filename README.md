@@ -1,6 +1,8 @@
-# HTTPehaviour [![Build Status](https://travis-ci.org/edgurgel/httpehaviour.svg?branch=master)](https://travis-ci.org/edgurgel/httpehaviour)
+# HTTPehaviour [![Build Status](https://travis-ci.org/edgurgel/httpehaviour.svg?branch=master)](https://travis-ci.org/edgurgel/httpehaviour) [![Hex pm](http://img.shields.io/hexpm/v/httpehaviour.svg?style=flat)](https://hex.pm/packages/httpehaviour)
 
 HTTP client for Elixir, based on [HTTPoison](https://github.com/edgurgel/httpoison).
+
+[Documentation](http://hexdocs.pm/httpehaviour/)
 
 ## But why not HTTPoison?
 
