@@ -1,4 +1,3 @@
-HTTPehaviour
 # HTTPehaviour [![Build Status](https://travis-ci.org/edgurgel/httpehaviour.svg?branch=master)](https://travis-ci.org/edgurgel/httpehaviour)
 ============
 
