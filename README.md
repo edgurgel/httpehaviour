@@ -63,7 +63,7 @@ The request will follow like this:
 * `process_request_url/2`, `process_request_body/2` & `process_request_headers/2`;
 * The request is executed to the HTTP server;
 * `process_response_status_code/2`, `process_response_headers/2`, `process_request_body/2` or `process_response_chunk/2`;
-* Then finally terminate_request/1 is called to do any cleanup and change the state;
+* Then finally `terminate_request/1` is called to do any cleanup and change the state;
 * Response will have the state that got passed through the previous functions.
 
 If any callback is called and returns `{ :halt, state }`, it will finish it and return `HTTPehaviour.Error`
